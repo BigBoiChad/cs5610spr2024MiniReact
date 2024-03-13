@@ -1,0 +1,29 @@
+.cell{
+  width: 100px; 
+  height: 100px;
+  border: solid 1px grey;
+  background-color: white;
+}
+
+.cell:hover{
+    background-color: gray;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.selected{
+    width: 100px; 
+    height: 100px;
+    border: solid 1px grey;
+    background-color: black;
+}
+
+.selected:hover{
+    background-color: gray;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+
+
